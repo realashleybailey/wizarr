@@ -11,7 +11,7 @@ import { defineComponent } from 'vue';
 import { useInvitationStore } from '@/stores/invitations';
 import { mapState } from 'pinia';
 
-import DefaultWidget from '@/widgets/templates/DefaultWidget.vue';
+import DefaultWidget from '@/components/Widget/templates/DefaultWidget.vue';
 
 export default defineComponent({
     name: 'InvitesTotal',

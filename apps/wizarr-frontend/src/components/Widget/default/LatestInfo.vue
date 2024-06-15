@@ -28,7 +28,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-import DefaultWidget from "@/widgets/templates/DefaultWidget.vue";
+import DefaultWidget from "@/components/Widget/templates/DefaultWidget.vue";
 import TextClamp from "vue3-text-clamp";
 
 export default defineComponent({

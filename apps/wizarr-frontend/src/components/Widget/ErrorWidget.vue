@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import DefaultWidget from "@/widgets/templates/DefaultWidget.vue";
+import DefaultWidget from "@/components/Widget/templates/DefaultWidget.vue"
 
 export default defineComponent({
     name: "ErrorWidget",

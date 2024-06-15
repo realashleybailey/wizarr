@@ -12,7 +12,7 @@ import { Chart, registerables } from "chart.js";
 
 import type { ChartData, ChartOptions } from "chart.js";
 
-import WidgetTemplate from "@/widgets/templates/DefaultWidget.vue";
+import WidgetTemplate from "@/components/Widget/templates/DefaultWidget.vue";
 
 Chart.register(...registerables);
 

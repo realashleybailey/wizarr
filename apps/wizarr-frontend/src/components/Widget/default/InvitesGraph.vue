@@ -18,7 +18,7 @@ import type { ChartOptions } from 'chart.js';
 
 import moment from 'moment';
 
-import GraphWidget from '@/widgets/templates/GraphWidget.vue';
+import GraphWidget from '@/components/Widget/templates/GraphWidget.vue';
 
 Chart.register(...registerables);
 

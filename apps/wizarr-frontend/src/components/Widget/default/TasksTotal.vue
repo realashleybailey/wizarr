@@ -7,7 +7,7 @@ import { defineComponent } from 'vue';
 import { useTasksStore } from '@/stores/tasks';
 import { mapState } from 'pinia';
 
-import DefaultWidget from '@/widgets/templates/DefaultWidget.vue';
+import DefaultWidget from '@/components/Widget/templates/DefaultWidget.vue';
 
 export default defineComponent({
     name: 'TasksTotal',
